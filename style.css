@@ -1,0 +1,29 @@
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+} 
+img
+{
+    border-radius: 8px;
+    width: 300px;
+    height: 300px;
+}
+ul 
+{
+     list-style: none;
+}
+  
+  ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+  #Steps
+  {
+    border: 5px outset red;
+    background-color: lightblue;
+    text-decoration: underline;
+  }
